@@ -1,0 +1,43 @@
+#container{
+    background-color:#89cff0;
+    border:1px solid black;
+    height:350px;
+    width:430px;
+}
+#user_img{
+    background-color:#89cff0;
+    border:1px solid black;
+    float:left;
+    position:relative;
+   
+}
+#user{
+    background-color:#89cff0;
+    border:1px solid black;
+    float:right;
+    position:relative;
+    height:300px;
+}
+#user_info{
+    background-color:#89cff0;
+    border:1px solid black;
+    height:200px;
+}
+#user_name{
+    background-color:#89cff0;
+    border:1px solid black;
+    height:50px;
+}
+#date{
+    background-color:#89cff0;
+    border:1px solid black;
+    height:50px;
+}
+    
+img{
+    width:200px;
+    height:250px;
+}
+ul{
+    list-style-type:none;
+}

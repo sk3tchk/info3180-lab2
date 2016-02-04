@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="/static/css/profile.css">
+{% endblock %}
+
+{% block main %}
+<div id="container">
+    <div id="user_img">
+        <img src="https://pbs.twimg.com/profile_images/3223125683/6e23ea62a6b7876817b6094965197d9d_400x400.jpeg"></img>
+    </div>
+    <div id="user">
+        <div id="user_name">
+            David Martillier
+        </div>
+        <div id="date">
+            Today is: {{today}}
+        </div>
+        <div id="user_info">
+            <ul>
+                <li>
+                     Username:sk3tchk
+                </li>
+                <li>
+                    ID: 620057149
+                </li>
+                <li>
+                    Sex: Male
+                </li>
+                <li>
+                    Age: 23
+                </li>
+                <li>
+                    Highest: 320
+                </li>
+                <li>
+                    TDollars: 500
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
